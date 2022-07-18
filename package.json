@@ -1,5 +1,5 @@
 {
-  "name": "@brickbank/service-payment-alarms",
+  "name": "api-monitoring-serverless",
   "version": "0.1.0",
   "private": true,
   "scripts": {
