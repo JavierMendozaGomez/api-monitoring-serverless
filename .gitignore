@@ -1,0 +1,43 @@
+# package directories
+node_modules
+
+# Serverless directories
+.serverless
+
+# Terraform directories
+.terraform
+
+.DS_Store
+dist
+!.github/actions/**/dist
+.build
+.esbuild
+coverage
+.idea
+*.iml
+test-results
+.vscode
+stack.json
+newrelic_agent.log
+yarn-error.log
+pino-pretty.config.js
+tmp
+.next
+.sst
+.cdk.staging
+cdk.out
+!jest.config.js
+*.d.ts
+outputs.json
+cdk.context.json
+
+#cypress
+screenshots
+videos
+
+#openApi
+spec-output.bundle.env.json
+openapitools.json
+
+#AsyncAPI
+asyncapi.out

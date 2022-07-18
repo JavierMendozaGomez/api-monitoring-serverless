@@ -1,0 +1,30 @@
+{
+  "name": "@brickbank/service-payment-alarms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "deploy": "cdk deploy --outputs-file outputs.json",
+    "deploy:user": "STAGE=$USER cdk deploy --outputs-file outputs.json --hot-swap",
+    "lint": "eslint . --ext .js,.ts --max-warnings 0",
+    "remove": "cdk destroy",
+    "remove:user": "STAGE=$USER CONFIG_ENV=dev cdk destroy",
+    "synth": "cdk synth",
+    "synth:user": "STAGE=$USER CONFIG_ENV=dev cdk synth",
+    "test": "STAGE=test jest stacks/"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "1.0.3",
+    "@types/jest": "27.4.1",
+    "@types/node": "18.0.0",
+    "aws-cdk": "2.30.0",
+    "jest": "27.5.1",
+    "ts-jest": "27.1.5",
+    "ts-node": "10.8.2",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.31.0",
+    "constructs": "10.1.43"
+  }
+}

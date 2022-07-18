@@ -1,0 +1,8 @@
+{
+  "exclude": ["cdk.out", "node_modules", "src/__tests__", "stacks/__tests__"],
+  "extends": "@tsconfig/node14",
+  "include": ["src", "stacks"],
+  "compilerOptions": {
+    "resolveJsonModule": true
+  }
+}

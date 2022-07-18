@@ -1,0 +1,9 @@
+generated-types
+.serverless
+.build
+.esbuild
+dist
+coverage
+generated-documentation
+node_modules
+cdk.out
